@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --background: #FFCD9E;
+    --second-background: #282828;
+    --mail-box: #FFFFFF;
+    --mail-box-inner: #000000;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.rectangle {
+    width: 1440px;
+    height: 592px;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    background-color: var(--background)
+}
+
+.footer-rectangle {
+    width: 1440px;
+    height: 298px;
+    position: absolute;
+    left: 0px;
+    top: 592px;
+    background-color: var(--second-background);
+}
+
+/** heading */
+
+
+.heading {
+position: absolute;
+width: 562px;
+height: 108px;
+left: 136px;
+top: 83px;
+}
+
+
+.heading .first-segment {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+color: #282828;
+}
+
+
+/** typography **/
+
+
+.typography-01 {
+    position: absolute;
+    width: 495px;
+    height: 81px;
+    left: 136px;
+    top: 219px;
+}
+
+.typography-01 .para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #484848;
+}
+
+.typography-02 {
+    position: absolute;
+    width: 227px;
+    height: 81px;
+    left: 136px;
+    top: 335px;
+}
+
+.typography-02 .looks {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #282828;
+
+}
+
+/** forms **/
+
+.email-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 320px;
+  height: 58px;
+  left: 136px;
+  top: 411px;
+  background-color: var(--mail-box);
+  border: 4px solid #000000;
+  border-radius: 8px;
+}
+
+.register {
+  position: absolute;
+  width: 216px;
+  height: 64px;
+  left: 496px;
+  top: 411px;
+  background-color: var(--second-background);
+  border-radius: 8px;
+}
+
+.etext {
+  position: absolute;
+  width: 350px;
+  height: 64px;
+  left: 158px;
+  top: 388px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #888888;
+}
+
+.rtext {
+  position: absolute;
+  width: 216px;
+  height: 64px;
+  left: 40px;
+  top: -1px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.utext {
+  position: absolute;
+  width: 344px;
+  height: 61px;
+  top: 479px;
+  left: 175px;
+  font: 'Inter';
+}
+.utext .uline {
+  font-weight: 500;
+  size: 16px;
+  line-height: 25.6px;
+  align-items: center;
+  color:#FFFFFF
+}
+ 
+
+
+
+/** IMAGE **/
+
+.vector {
+    width: 393.52px;
+    height: 442.45px;
+    top: 66.4px;
+    left: 91.87px;
+}
+
+.vector .vector-img {
+    left: 65%;
+    position: absolute;
+    right: 15.58px;
+    top: 75.55px;
+    bottom: 11.51px;
+
+}
+
+/** link **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+
+/** footer **/
+
+
+.footer {
+    position: absolute;
+    width: 216px;
+    height: 36px;
+    left: 148px;
+    top: 620px;
+  }
+  
+.footer .footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.footer .footer-item {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 10px; 
+  }
+  
+.fourth-item {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    
+  }
+
+  /** right footer **/
+
+.right-footer {
+    position: absolute;
+    width: 148px;
+    height: 36px;
+    left: 1000px;
+    top: 620px;
+  }
+
+  .right-footer .right-footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+.right-footer .right-footer-item {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: right; 
+    list-style: none;
+  } 
+
+.right-side {
+    width: 215px;
+  }
+
+.insta-logo {
+position: absolute;
+height: 27.42px;
+width: 29.41px;
+left: 1228.59px;
+top: 728.58px;
+border-radius: 0px;
+}
+
+.linkedin-logo {
+  position: absolute;
+  width: 29.41px;
+  height: 27.42px;
+  left: 1187px;
+  top: 728.58px;
+}
+
+ 
+    
+  
